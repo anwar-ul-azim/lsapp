@@ -1,0 +1,23 @@
+composer create-project laravel/laravel <appname>
+
+php artisan make:controller TodosController
+php artisan make:controller TodosController --resource
+php artisan make:model Todo -m   //(m-migration)
+php artisan make:migration add_todos_to_db -table=todos
+
+php artisan migrate
+php artisan tinker
+php artisan route:list
+
+
+env settings in system32 driver etc hosts
+xampp apache conf extra httpd-vhosts.conf
+
+models in app folder
+controller in app http controller
+views in resources views
+route in routes
+
+
+npm install
+npm run watch
